@@ -1,0 +1,24 @@
+{
+  "name": "backend_yhkurs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsratErin/Backend_YHKurs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsratErin/Backend_YHKurs/issues"
+  },
+  "homepage": "https://github.com/IsratErin/Backend_YHKurs#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
