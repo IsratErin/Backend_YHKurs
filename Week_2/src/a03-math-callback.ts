@@ -3,14 +3,18 @@
 type printResultFunction = (result: number) => void;
 
 //add numbers and sends to the callback function printResult
-const addNumber = (a1 : number, b1 : number, printResult : printResultFunction): void =>{
-    const result = a1 + b1;
-    printResult(result);
-}
+const addNumber = (
+  a1: number,
+  b1: number,
+  printResult: printResultFunction,
+): void => {
+  const result = a1 + b1;
+  printResult(result);
+};
 
 // prints the result
-const printResult = (result: number): void =>{
-    console.log(result);
-}
+const printResult = (result: number): void => {
+  console.log(result);
+};
 
-addNumber(5,50,printResult);
+addNumber(5, 50, printResult);
